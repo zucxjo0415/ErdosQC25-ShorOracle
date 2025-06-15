@@ -1,5 +1,5 @@
 # ErdosQC25-ShorOracle
-Implements a Qiskit function `shoracle` that takes two positive integer inputs $a,N$ such that $a <N$ and outputs the circuit (an oracle for Shor's algorithm) $U = U_{a,N}$ such that
+Implements a Qiskit function `shoracle` that takes two positive integer inputs $a,N$ such that $a <N$ and outputs a circuit (an oracle for Shor's algorithm) $U = U_{a,N}$, using 1-qubit gates, multi-controlled phase and $X$ gates, and Qiskit's built-in QFT, such that
 
 
 $$  U |x\rangle_1 |y\rangle_n =  |x\rangle_1 |ay \mod N\rangle_n $$
